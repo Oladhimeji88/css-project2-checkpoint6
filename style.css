@@ -1,0 +1,283 @@
+nav {
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.nav-logo {
+  width: 15rem;
+}
+.topnav-links {
+  gap: 2rem;
+}
+main {
+  margin: 4% 0;
+  gap: 6rem;
+}
+
+/* hero section */
+.hero,
+.hero-wrapper,
+.hero-tt {
+  align-items: center;
+}
+.hero {
+  width: 80%;
+  margin: 0 auto;
+  gap: 8rem;
+}
+
+.hero-wrapper {
+  gap: 4rem;
+}
+
+.hero-tt {
+  gap: 2rem;
+}
+
+.hero-tt img {
+  width: 2.25rem;
+}
+h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  letter-spacing: -0.05rem;
+  color: #00b39b;
+}
+
+.hero-dd {
+  justify-content: space-between;
+}
+.hero-dd p {
+  font-size: 1rem;
+  color: #747474;
+  width: 47%;
+  letter-spacing: -0.02rem;
+  line-height: 140%;
+}
+
+.cardlist {
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  gap: 3rem;
+}
+
+.offer-card {
+  justify-content: space-between;
+  gap: 4rem;
+  border-radius: 0.5rem;
+  padding: 1.6rem;
+  height: 22rem;
+}
+.offer-card .content {
+  gap: 0.6rem;
+}
+.offer-card p {
+  color: white;
+}
+.offer-card .text {
+  gap: 1rem;
+}
+.offer-card .text .title {
+  font-size: 1.8rem;
+  letter-spacing: -0.05rem;
+  font-weight: 400;
+}
+.offer-card .text .subtitle {
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.logo-list-wrapper {
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.logo-list-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #00b39b;
+  width: 30%;
+}
+.logo-list {
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.logo-list img {
+  width: 7rem;
+}
+
+/* stats section */
+.stats-section {
+  background-color: #d0faf4;
+  padding: 3rem 0;
+  position: relative;
+}
+.stats-wrapper {
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.stats-wrapper .croppedlogo {
+  position: absolute;
+  bottom: 0;
+  translate: translare(0, -10rem);
+}
+.stat-heading {
+  gap: 1rem;
+}
+
+.stat-heading h4 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: #00b39b;
+  width: 50%;
+}
+
+.stat-heading p {
+  width: 75%;
+  color: #747474;
+}
+
+.stat-cardlist-wrapper {
+  gap: 4rem;
+}
+
+.stat-cardlist {
+  gap: 1.5rem;
+}
+.stat-cardlist-wrapper .one {
+  margin-top: 1rem;
+}
+.stat-card {
+  background-color: white;
+  align-items: center;
+  padding: 1rem;
+  width: 13rem;
+  height: 15rem;
+  justify-content: center;
+  gap: 1.8rem;
+  border-radius: 0.3rem;
+}
+.stat-card img {
+  width: 1.5rem;
+}
+
+.stat-card .content {
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.stat-card-title,
+.stat-card-subtitle {
+  text-align: center;
+}
+
+.stat-card-title {
+  font-size: 1.5rem;
+  color: #00b39b;
+  line-height: 100%;
+  font-weight: 300;
+}
+
+.stat-card-subtitle {
+  font-size: 0.7rem;
+  color: #747474;
+}
+
+/* location section */
+.location-section {
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 10rem;
+}
+
+.location-heading {
+  align-items: center;
+  width: 30%;
+  gap: 1.2rem;
+}
+.location-heading h4,
+.location-heading p {
+  text-align: center;
+  font-weight: 300;
+}
+.location-heading h4 {
+  font-size: 2rem;
+  color: #00b39b;
+}
+.location-heading p {
+  color: #747474;
+}
+
+.location-card {
+  gap: 0.2rem;
+  cursor: pointer;
+}
+.location-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.location-grid {
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card-img-wrapper {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.card-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.location-card .content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.location-card p {
+  color: #747474;
+}
+
+/* footer section */
+footer {
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 2%;
+}
+.footer-heading {
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-heading p {
+  font-size: 1.8rem;
+  letter-spacing: -0.02rem;
+  color: #333;
+  font-weight: 300;
+}
+
+.footer-content {
+  align-items: center;
+}
+.footer-content p {
+  font-size: 0.8rem;
+  color: #747474;
+  width: 80%;
+  text-align: center;
+}
