@@ -621,3 +621,694 @@ footer {
   text-align: center;
 }
 
+/* Career Page Styles */
+.career-hero,
+.career-hero-wrapper,
+.career-hero-tt {
+  align-items: center;
+}
+
+.career-hero {
+  width: 80%;
+  margin: 0 auto;
+  gap: 8rem;
+}
+
+.career-hero-wrapper {
+  gap: 4rem;
+}
+
+.career-hero-tt {
+  gap: 2rem;
+}
+
+.career-hero-tt img {
+  width: 2.25rem;
+}
+
+.career-hero-dd {
+  justify-content: space-between;
+}
+
+.career-hero-dd p {
+  font-size: 1rem;
+  color: #747474;
+  width: 47%;
+  letter-spacing: -0.02rem;
+  line-height: 140%;
+}
+
+/* Benefits Section */
+.career-benefits {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 0;
+}
+
+.benefits-wrapper {
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.benefits-wrapper h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #00b39b;
+}
+
+.benefits-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
+.benefit-card {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  gap: 1.5rem;
+  align-items: center;
+  animation: fadeInUp 1.2s ease-out backwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.benefit-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.benefit-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.benefit-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.benefit-card img {
+  width: 3rem;
+}
+
+.benefit-card h3 {
+  font-size: 1.3rem;
+  color: #00b39b;
+  font-weight: 400;
+  text-align: center;
+}
+
+.benefit-card p {
+  font-size: 0.95rem;
+  color: #747474;
+  line-height: 140%;
+  text-align: center;
+}
+
+/* Positions Section */
+.career-positions {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 0;
+}
+
+.positions-wrapper {
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.positions-wrapper h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #00b39b;
+}
+
+.positions-wrapper > p {
+  font-size: 1.1rem;
+  color: #747474;
+  width: 100%;
+}
+
+.positions-list {
+  width: 100%;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.position-item {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  animation: fadeInUp 1.2s ease-out backwards;
+  transition: box-shadow 0.3s ease;
+}
+
+.position-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.position-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.position-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.position-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.position-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.position-item:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.position-item:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+.position-info {
+  flex: 1;
+  gap: 0.8rem;
+}
+
+.position-info h3 {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 400;
+}
+
+.position-info .location {
+  font-size: 0.9rem;
+  color: #00b39b;
+  font-weight: 500;
+}
+
+.position-info .description {
+  font-size: 0.95rem;
+  color: #747474;
+  line-height: 140%;
+}
+
+/* Culture Section */
+.career-culture {
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 0;
+  background-color: #f0f9f8;
+  padding: 4rem;
+  border-radius: 0.5rem;
+}
+
+.culture-wrapper {
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.culture-wrapper h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #00b39b;
+}
+
+.culture-wrapper p {
+  font-size: 1rem;
+  color: #747474;
+  text-align: center;
+  width: 80%;
+  line-height: 150%;
+}
+
+.culture-points {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
+.culture-point {
+  align-items: center;
+  gap: 1rem;
+  animation: fadeInUp 1.2s ease-out backwards;
+}
+
+.culture-point:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.culture-point:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.culture-point:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.culture-point:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.culture-point h4 {
+  font-size: 1.2rem;
+  color: #00b39b;
+  font-weight: 400;
+  text-align: center;
+}
+
+.culture-point p {
+  font-size: 0.95rem;
+  color: #747474;
+  text-align: center;
+  width: 100%;
+}
+
+/* Responsive Design */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  nav {
+    width: 90%;
+    padding: 1.5rem 0;
+  }
+
+  .nav-logo {
+    width: 12rem;
+  }
+
+  .topnav-links {
+    gap: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Hero Sections */
+  .hero,
+  .about-hero,
+  .career-hero {
+    width: 90%;
+    gap: 4rem;
+  }
+
+  .hero-dd,
+  .about-hero-dd,
+  .career-hero-dd {
+    flex-direction: column;
+  }
+
+  .hero-dd p,
+  .about-hero-dd p,
+  .career-hero-dd p {
+    width: 100%;
+  }
+
+  .cardlist {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .offer-card {
+    height: auto;
+  }
+
+  .logo-list {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+  }
+
+  .logo-list img {
+    width: 5rem;
+  }
+
+  /* Stats Section */
+  .stats-wrapper {
+    width: 90%;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .stat-cardlist-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* Location Cards */
+  .location-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  /* About Us Page */
+  .mission-wrapper p,
+  .team-wrapper p {
+    width: 90%;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-stats {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Career Page */
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .position-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .culture-points {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer {
+    width: 90%;
+  }
+
+  .footer-content p {
+    width: 90%;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  nav {
+    width: 95%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-logo {
+    width: 10rem;
+  }
+
+  .topnav-links {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Hero Sections */
+  .hero,
+  .about-hero,
+  .career-hero {
+    width: 95%;
+    gap: 2rem;
+  }
+
+  .hero-wrapper,
+  .about-hero-wrapper,
+  .career-hero-wrapper {
+    gap: 2rem;
+  }
+
+  .hero-tt img,
+  .about-hero-tt img,
+  .career-hero-tt img {
+    width: 1.5rem;
+  }
+
+  .hero-dd p,
+  .about-hero-dd p,
+  .career-hero-dd p {
+    font-size: 0.9rem;
+  }
+
+  .cardlist {
+    grid-template-columns: 1fr;
+    width: 95%;
+    gap: 1.5rem;
+  }
+
+  .offer-card {
+    height: auto;
+    gap: 2rem;
+  }
+
+  select {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  /* Logo List */
+  .logo-list-wrapper {
+    width: 95%;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .logo-list-title {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .logo-list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 1.5rem;
+  }
+
+  .logo-list img {
+    width: 4rem;
+  }
+
+  /* Stats Section */
+  .stats-section {
+    padding: 2rem 0;
+  }
+
+  .stats-wrapper {
+    width: 95%;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .stat-heading h4 {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+
+  .stat-heading p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .stat-cardlist-wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .stat-card {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+  }
+
+  /* Location Section */
+  .location-section {
+    width: 95%;
+    gap: 3rem;
+  }
+
+  .location-heading {
+    width: 100%;
+  }
+
+  .location-heading h4 {
+    font-size: 1.5rem;
+  }
+
+  .location-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .location-card {
+    gap: 0.1rem;
+  }
+
+  .location-card .content {
+    padding: 0.8rem;
+  }
+
+  .location-card p {
+    font-size: 0.85rem;
+  }
+
+  .blue-button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  /* Footer */
+  footer {
+    width: 95%;
+    gap: 2rem;
+    margin-bottom: 5%;
+  }
+
+  .footer-heading p {
+    font-size: 1.5rem;
+  }
+
+  .footer-content p {
+    width: 95%;
+    font-size: 0.75rem;
+  }
+
+  /* About Us Page */
+  .mission-wrapper p,
+  .team-wrapper p {
+    width: 100%;
+  }
+
+  .values-grid,
+  .impact-grid,
+  .culture-points {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card {
+    padding: 1.5rem;
+  }
+
+  .team-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .stat-number,
+  .impact-number {
+    font-size: 2rem;
+  }
+
+  .stat-label,
+  .impact-title {
+    font-size: 0.9rem;
+  }
+
+  .impact-card {
+    padding: 2rem;
+  }
+
+  /* Career Page */
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-card {
+    padding: 1.5rem;
+  }
+
+  .benefit-card img {
+    width: 2.5rem;
+  }
+
+  .positions-wrapper > p {
+    font-size: 0.95rem;
+  }
+
+  .position-item {
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .position-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .position-info .description {
+    font-size: 0.85rem;
+  }
+
+  .career-culture {
+    width: 95%;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .culture-wrapper p {
+    width: 100%;
+  }
+
+  .culture-point h4 {
+    font-size: 1rem;
+  }
+
+  .culture-point p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Extra small devices (320px and below) */
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .cardlist {
+    gap: 1rem;
+  }
+
+  .stat-card {
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-list {
+    grid-template-columns: 1fr;
+  }
+}
+
