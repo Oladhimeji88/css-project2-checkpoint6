@@ -295,7 +295,7 @@ footer {
 }
 
 .offer-card {
-  animation: fadeInUp 0.6s ease-out backwards;
+  animation: fadeInUp 1.2s ease-out backwards;
 }
 
 .offer-card:nth-child(1) {
@@ -311,7 +311,7 @@ footer {
 }
 
 .stat-card {
-  animation: fadeInUp 0.6s ease-out backwards;
+  animation: fadeInUp 1.2s ease-out backwards;
 }
 
 .stat-cardlist .stat-card:nth-child(1) {
@@ -331,7 +331,7 @@ footer {
 }
 
 .location-card {
-  animation: fadeInUp 0.6s ease-out backwards;
+  animation: fadeInUp 1.2s ease-out backwards;
 }
 
 .location-card:nth-child(1) {
