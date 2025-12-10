@@ -125,7 +125,7 @@ h1 {
 .stats-wrapper .croppedlogo {
   position: absolute;
   bottom: 0;
-  translate: translare(0, -10rem);
+  translate: translate(0, -10rem);
 }
 .stat-heading {
   gap: 1rem;
