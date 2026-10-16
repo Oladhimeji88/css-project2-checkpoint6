@@ -1,0 +1,5 @@
+{
+  "nuxt.isNuxtApp": false,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false
+}
